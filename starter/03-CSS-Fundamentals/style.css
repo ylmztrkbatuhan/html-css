@@ -17,6 +17,14 @@ body {
   margin-bottom: 60px;
 }
 
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
 .post-header {
   margin-bottom: 40px;
 }
@@ -48,6 +56,8 @@ h2 {
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -59,8 +69,14 @@ h4 {
 
 p {
   font-size: 22px;
-
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li:last-child {
@@ -160,7 +176,3 @@ a:active {
 footer p {
   color: green !important;
 } */
-
-nav {
-  font-size: 18px;
-}
